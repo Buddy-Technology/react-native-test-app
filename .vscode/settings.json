@@ -1,0 +1,4 @@
+{
+  "cSpell.words": ["clsx", "davstack", "lucide", "mmkv", "twrnc", "zustand"],
+  "typescript.tsdk": "node_modules/typescript/lib"
+}

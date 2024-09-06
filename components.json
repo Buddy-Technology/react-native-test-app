@@ -1,0 +1,12 @@
+{
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "platforms": "native-only",
+  "aliases": {
+    "components": "~/components",
+    "lib": "~/lib",
+    "utils": "~/lib/utils",
+    "ui": "~/components/ui"
+  },
+
+  "style": "default"
+}

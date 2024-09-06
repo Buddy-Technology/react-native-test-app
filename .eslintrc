@@ -1,0 +1,16 @@
+{
+  "root": true,
+  "extends": ["universe/native"],
+  "ignorePatterns": ["babel.config.js", "metro.config.js"],
+  "rules": {
+    // Ensures props and state inside functions are always up-to-date
+    "react-hooks/exhaustive-deps": "warn",
+    "@typescript-eslint/array-type": ["error", { "default": "generic" }],
+
+    "comma-dangle": "off",
+    "sort-imports": [
+      "warn",
+      { "ignoreDeclarationSort": true, "ignoreMemberSort": true },
+    ],
+  },
+}
